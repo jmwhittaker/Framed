@@ -10,11 +10,11 @@ Contains all you need to get up and running with a [Framer.js](http://framerjs.c
 * Instant update to any changes using watch & livereload
 * Write CSS using [Sass](http://sass-lang.com/)
 
-See examples of what's possible with Framer.js (here)[http://examples.framerjs.com/].
+See examples of what's possible with Framer.js [here](http://examples.framerjs.com/).
 
 ### How to install
 
-You will need Node and Npm installed, if you don't have these installed then (follow this easy guide to install using Homebrew)[http://thechangelog.com/install-node-js-with-homebrew-on-os-x/].
+You will need Node and Npm installed, if you don't have these installed then [follow this easy guide to install using Homebrew](http://thechangelog.com/install-node-js-with-homebrew-on-os-x/).
 
 * Clone the project
 * Run `npm install`. Simples.
@@ -23,7 +23,7 @@ You will need Node and Npm installed, if you don't have these installed then (fo
 
 * Type `grunt` in the terminal
 
-A webpage will be loaded up at (http://0.0.0.0:4000)[http://0.0.0.0:4000] with your prototype. Any changes you make to will be updated automagically. Nice right.
+A webpage will be loaded up at [http://0.0.0.0:4000](http://0.0.0.0:4000) with your prototype. Any changes you make to will be updated automagically. Nice right.
 
 ### Writing your Prototype
 
