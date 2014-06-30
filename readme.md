@@ -2,19 +2,19 @@
 
 Boilerplate project & toolchain for rapid prototyping with Framer.js
 
-Contains all you need to get up and running with a [http://framerjs.com/](Framer.js) project.
+Contains all you need to get up and running with a [Framer.js](http://framerjs.com/) project.
 
 #### Features
 
-* Write your code using [http://coffeescript.org/](Coffeescript).
+* Write your code using [Coffeescript](http://coffeescript.org/).
 * Instant update to any changes using watch & livereload
-* Write CSS using [http://sass-lang.com/](Sass)
+* Write CSS using [Sass](http://sass-lang.com/)
 
-See examples of what's possible with Framer.js [http://examples.framerjs.com/](here).
+See examples of what's possible with Framer.js (here)[http://examples.framerjs.com/].
 
 ### How to install
 
-You will need Node and Npm installed, if you don't have these installed then [http://thechangelog.com/install-node-js-with-homebrew-on-os-x/](follow this easy guide to install using Homebrew).
+You will need Node and Npm installed, if you don't have these installed then (follow this easy guide to install using Homebrew)[http://thechangelog.com/install-node-js-with-homebrew-on-os-x/].
 
 * Clone the project
 * Run `npm install`. Simples.
@@ -23,7 +23,7 @@ You will need Node and Npm installed, if you don't have these installed then [ht
 
 * Type `grunt` in the terminal
 
-A webpage will be loaded up at [http://0.0.0.0:4000](http://0.0.0.0:4000) with your prototype. Any changes you make to will be updated automagically. Nice right.
+A webpage will be loaded up at (http://0.0.0.0:4000)[http://0.0.0.0:4000] with your prototype. Any changes you make to will be updated automagically. Nice right.
 
 ### Writing your Prototype
 
