@@ -1,6 +1,6 @@
 ## Framed
 
-Bolierplate project & toolchain for rapid prototyping with Framer.js
+Boilerplate project & toolchain for rapid prototyping with Framer.js
 
 Contains all you need to get up and running with a [http://framerjs.com/](Framer.js) project.
 
@@ -9,6 +9,8 @@ Contains all you need to get up and running with a [http://framerjs.com/](Framer
 * Write your code using [http://coffeescript.org/](Coffeescript).
 * Instant update to any changes using watch & livereload
 * Write CSS using [http://sass-lang.com/](Sass)
+
+See examples of what's possible with Framer.js [http://examples.framerjs.com/](here).
 
 ### How to install
 
