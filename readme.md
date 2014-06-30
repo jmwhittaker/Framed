@@ -2,19 +2,20 @@
 
 Bolierplate project & toolchain for rapid prototyping with Framer.js
 
-Contains all you need to get up and running with a Framer.js.
+Contains all you need to get up and running with a [http://framer.js](Framer.js) project.
 
 #### Features
 
-* Write your code using coffeescript
+* Write your code using Coffeescript
 * Instant update to any changes using watch & livereload
 * Write CSS using Sass
 
 ### How to install
 
+You will need Node and Npm installed, if you don't have these installed then [http://thechangelog.com/install-node-js-with-homebrew-on-os-x/](follow this easy guide to install using Homebrew).
+
 * Clone the project
 * Run `npm install`. Simples.
-
 
 ### How to run
 
