@@ -1,6 +1,6 @@
 {
-  "name": "FramerToolkit",
-  "description": "Boilerplate project for Framer.js",
+  "name": "Framed",
+  "description": "Boilerplate project and toolchain for Framer.js",
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.2",
@@ -10,6 +10,7 @@
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-coffee": "~0.10.1",
     "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-sass": "~0.7.3",
     "grunt-browserify": "~2.1.0",
     "coffeeify": "~0.6.0",
     "framerjs": "~3.0.0"

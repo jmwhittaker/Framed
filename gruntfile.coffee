@@ -2,16 +2,7 @@ module.exports = ->
     #Load tasks
     require('load-grunt-tasks')(@)
 
-    sourceDirectory = 'source'
-    buildDirectory = 'build'
-    framerSourceDirectory = 'node_modules/framerjs/framer/'
-
     @initConfig
-
-        dir:
-            sourceDir: sourceDirectory
-            buildDir: buildDirectory
-            framerSoureDir: framerSourceDirectory
 
         clean:
             localApp: [
@@ -24,10 +15,14 @@ module.exports = ->
         watch:
             options:
                 livereload: true
+                port: 35730
             html:
-                files: ['index.html', 'images/**', 'app.js']
+                files: ['index.html', 'images/**']
+            css:
+                files: 'styles/*.scss',
+                tasks: ['sass']
             coffee:
-                files: ['*.coffee']
+                files: ['source/**/*.coffee']
                 tasks: ['coffee:compile']
 
         browserify:
@@ -45,11 +40,22 @@ module.exports = ->
             compile:
                 expand:true
                 flatten: true
-                cwd: 'src/'
+                cwd: 'source/'
                 src: ['*.coffee']
                 dest: 'js/app'
                 ext: '.js'
 
+        sass:
+            dist:
+                files: [
+                    expand: true
+                    cwd: 'styles'
+                    src: '*.scss'
+                    dest: 'css'
+                    ext:'.css'
+                ]
+
+        # Default webserver options
         connect:
             server:
                 options:
@@ -60,5 +66,5 @@ module.exports = ->
 
     # Register custom tasks
     @registerTask 'buildFramerSource', ['clean:localFramer', 'browserify:framerSrc']
-    @registerTask 'server', ['connect:server', 'coffee', 'watch']
+    @registerTask 'server', ['connect:server', 'coffee', 'sass', 'watch']
     @registerTask 'default', ['buildFramerSource', 'server']
