@@ -1,0 +1,9 @@
+{
+  "name": "Framed",
+  "description": "Boilerplate project and toolchain for Framer.js",
+  "version": "1.0.1",
+  "dependencies": {
+    "underscore": "1.8.3",
+    "framer-templates": "~1.0.4"
+  }
+}

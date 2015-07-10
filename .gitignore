@@ -4,6 +4,7 @@
 .DS_Store?
 
 node_modules
+bower_components
 js/**
 
 # Sass cache

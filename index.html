@@ -2,10 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <title>Framed. Framer.js Toolkit</title>
+
+    <script type="text/javascript">
+    // This automatically sets the right viewport scale on mobile devices
+    (function() {
+    var scale = 1 / window.devicePixelRatio
+    document.write("<meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no\">")
+    })()
+    </script>
 
     <script src="js/framer/framer.js"></script>
     <script src="js/app/app.js"></script>
+
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script>FramerTemplateConfig = {/* see https://github.com/tisho/framer-templates for options */ }</script>
+    <script src="bower_components/framer-templates/templates/iphone-5c-red.js"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body></body>
