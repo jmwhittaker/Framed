@@ -17,7 +17,8 @@ See examples of what's possible with Framer.js [here](http://examples.framerjs.c
 You will need Node and Npm installed, if you don't have these installed then [follow this easy guide to install using Homebrew](http://thechangelog.com/install-node-js-with-homebrew-on-os-x/).
 
 * Clone the project
-* Run `npm install`. Simples.
+* Run `npm install`
+* Run `bower install`. Simples.
 
 ### How to run
 
@@ -31,6 +32,13 @@ Write your code in `source/app.coffee`.
 Any CSS code you may need can be written in the `styles/main.scss` file.
 
 Add images exported from Sketch or Photoshop into the `images` directory. You can the reference them inside your `.coffee` file like this:
+
+#### Changing the phone frame
+
+You can preview your Framer project using a phone template. Change the JS file in index.html to alter the frame.
+No iPhone 6 yet i'm afraid, i'll get onto that :)
+
+Look in the [framer-templates](https://github.com/tisho/framer-templates) project for details.
 
 ```
 myImageLayer = new Layer
